@@ -1,7 +1,9 @@
 /*
   CSS file for books.html
 */
-
+body {
+    background-color: lawngreen;
+}
 .date {
     font-size: 80%; 
 }
@@ -12,7 +14,25 @@
     font-size: 150%; 
     color: blue;
 }
+h1 {
+    font-size: 200%;
+    text-align: center;
+    font-family: Arial;
+    color: orange;
+    border-style: solid;
+    border-width: thick;
+    background-color: aliceblue;
+}
 .author {
     font-size: 150%;
     color: orange;
+}
+.book {
+    font-size: 200%;
+    text-align: center;
+    font-family: Arial;
+    color: orange;
+    border-style: solid;
+    border-width: thick;
+    background-color: aliceblue;
 }
