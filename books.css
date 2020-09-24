@@ -5,14 +5,24 @@ body {
     background-color: lawngreen;
 }
 .date {
-    font-size: 80%; 
+    font-size: 15px;
+    color: black;
+    text-align: left;
 }
 .isbn {
-    font-size: 80%; 
+    font-size: 15px;
+    color: black;
+    text-align: left;
+}
+.publisher {
+    font-size: 15px;
+    color: black;
+    text-align: left;
 }
 .title {
-    font-size: 150%; 
+    font-size: 30px; 
     color: blue;
+    text-align: left;
 }
 h1 {
     font-size: 200%;
@@ -31,8 +41,20 @@ h1 {
     font-size: 200%;
     text-align: center;
     font-family: Arial;
+    list-style: none;
     color: orange;
     border-style: solid;
     border-width: thick;
     background-color: aliceblue;
+
+}
+.bookcover {
+    border-style: solid;
+    border-width: thin;
+    list-style: none;
+    float: right;
+    border-color: orange;
+}
+li {
+    list-style: none;
 }
