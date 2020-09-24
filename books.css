@@ -34,8 +34,9 @@ h1 {
     background-color: aliceblue;
 }
 .author {
-    font-size: 150%;
+    font-size: 25px;
     color: orange;
+    text-align: left;
 }
 .book {
     font-size: 200%;
@@ -46,6 +47,8 @@ h1 {
     border-style: solid;
     border-width: thick;
     background-color: aliceblue;
+    outline-width: 10px;
+    outline-style: hidden;
 
 }
 .bookcover {
