@@ -32,6 +32,7 @@ h1 {
     border-style: solid;
     border-width: thick;
     background-color: aliceblue;
+    margin: 30px;
 }
 .author {
     font-size: 25px;
@@ -45,10 +46,12 @@ h1 {
     list-style: none;
     color: orange;
     border-style: solid;
-    border-width: thick;
+    border-width: 7px;
+    border-radius: 10px;
     background-color: aliceblue;
-    outline-width: 10px;
-    outline-style: hidden;
+    margin: 30px;
+    list-style: none;
+    display: block;
 
 }
 .bookcover {
@@ -57,7 +60,9 @@ h1 {
     list-style: none;
     float: right;
     border-color: orange;
+    max-height: 600px;
 }
 li {
-    list-style: none;
+    margin: 0;
+	list-style: none;
 }
