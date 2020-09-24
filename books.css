@@ -1,0 +1,18 @@
+/*
+  CSS file for books.html
+*/
+
+.date {
+    font-size: 80%; 
+}
+.isbn {
+    font-size: 80%; 
+}
+.title {
+    font-size: 150%; 
+    color: blue;
+}
+.author {
+    font-size: 150%;
+    color: orange;
+}
